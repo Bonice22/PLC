@@ -80,7 +80,7 @@ while True:
         total *= 0.85  # 15% de descuento
         print("Se ha aplicado un descuento por American Express. El nuevo total es: $" + str(total))
     else:
-        print("No se aplicó ningún descuento.")
+        print("sin descuento.")
 
     # Preguntar si desea continuar con la compra o regresar
     continuar = input("¿Deseas continuar con este vuelo (sí/no) o regresar a elegir otro destino (regresar)? ").lower()
